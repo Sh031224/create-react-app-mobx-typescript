@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import MainPage from "../pages/MainPage";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Switch>
@@ -10,6 +10,6 @@ function App() {
       </Switch>
     </div>
   );
-}
+};
 
 export default App;
